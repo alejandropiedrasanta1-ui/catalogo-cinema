@@ -40,6 +40,19 @@ Datos del usuario (ajustes, ediciones, miniaturas): `%APPDATA%\Catalogo Cinema P
 `empaquetar\CREAR INSTALADOR WINDOWS.bat` → `CATAGOLO COMPLETO\INSTALADOR\Instalar Catalogo Cinema (Windows) X.exe`
 (PyInstaller + instalador propio en C#, igual que Comprobantes). Para una versión nueva, sube `VERSION` en `rutas.py`.
 
+## Instalador (Mac Apple Silicon)
+
+`INSTALADOR\Instalar Catalogo Cinema (Mac Apple Silicon) X.dmg`: se abre el .dmg y un doble clic en «Instalar Catalogo»
+lo copia a Aplicaciones, lo fija en el Dock, abre el programa, se cierra y expulsa el disco (si ya está esa versión,
+solo lo abre). Si macOS no lo deja abrir la primera vez: Ajustes › Privacidad y seguridad › «Abrir igualmente».
+En la Mac también hacen falta PhotoCraft y los PSD: la carpeta del catálogo es `Documentos/Catalogo Cinema
+Productions/CATALOGO` (copia ahí el contenido de `PROGRAMA\CATALOGO` o elige otra en Ajustes).
+
+Cómo se crea: GitHub Actions lo compila y lo prueba solo en cada cambio que se sube a
+https://github.com/alejandropiedrasanta1-ui/catalogo-cinema (pestaña Actions › artefacto «instalador-mac»).
+También en una Mac: Terminal › `bash` + arrastrar `empaquetar/CREAR APP MAC.command` › Enter.
+Ventana del instalador: `empaquetar/mac/instalador_mac.swift`; fondo del .dmg: `python empaquetar/mac/crear_fondo_dmg.py`.
+
 ## Probar
 
 ```
