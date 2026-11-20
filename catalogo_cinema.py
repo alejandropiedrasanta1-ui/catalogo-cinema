@@ -8,8 +8,11 @@ import sys
 
 
 def _verificar():
+    """Arma la ventana completa sin mostrarla (sirve también en la Mac de GitHub Actions)."""
     import os
-    os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
+    if sys.platform != "darwin":
+        # En Mac no: la ventana sin bordes usa la vista nativa de Cocoa y se cae en modo offscreen
+        os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
     from PySide6.QtWidgets import QApplication
     import app as ventana_app
     import config
@@ -17,8 +20,10 @@ def _verificar():
     a = QApplication(sys.argv)
     rutas.preparar_carpetas()
     v = ventana_app.Ventana(config.cargar())
+    print("OK interfaz:", [v.stackedWidget.widget(i).objectName() for i in range(v.stackedWidget.count())])
     v.estado.cerrar()
-    print("OK")
+    v.close()
+    a.quit()
     return 0
 
 
