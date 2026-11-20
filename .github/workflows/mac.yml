@@ -1,0 +1,113 @@
+name: Compilar para Mac
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  mac:
+    name: Mac Apple Silicon
+    # Regla: solo Apple Silicon (M1, M2, M3, M4…). No se compila para Mac Intel.
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.14"
+
+      - name: Instalar dependencias
+        run: python -m pip install --upgrade pip PySide6 PySide6-Fluent-Widgets Pillow pyinstaller dmgbuild
+
+      - name: Ampliador IA para Mac (Real-ESRGAN)
+        run: bash empaquetar/mac/descargar_realesrgan_mac.sh "$PWD/recursos/realesrgan"
+
+      - name: Compilar la ventana del instalador (Swift)
+        run: |
+          swiftc --version
+          swiftc -swift-version 5 -O -parse-as-library -target arm64-apple-macos13.0 empaquetar/mac/instalador_mac.swift -o "$RUNNER_TEMP/instalar_prueba"
+
+      - name: Probar la interfaz desde el código
+        run: python catalogo_cinema.py --verificar
+
+      - name: Probar la ampliación con IA en Mac
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          import ampliar
+          Image.new("RGB", (200, 260), (180, 30, 40)).save("prueba.png")
+          print("Real-ESRGAN Mac:", ampliar.ejecutable())
+          print("método:", ampliar.ampliar("prueba.png", 400, 520, "prueba_x2.png"))
+          PY
+
+      - name: Compilar la app
+        working-directory: empaquetar
+        run: python -m PyInstaller --noconfirm --clean --distpath dist-mac --workpath build-mac catalogo.spec
+
+      - name: Probar la app compilada
+        run: '"empaquetar/dist-mac/Catalogo Cinema.app/Contents/MacOS/Catalogo Cinema" --verificar'
+
+      - name: Crear el instalador (.dmg con ventana nativa)
+        run: |
+          chmod +x empaquetar/crear_instalador_mac.sh
+          PYTHON=python empaquetar/crear_instalador_mac.sh "$PWD/empaquetar/dist-mac/Catalogo Cinema.app" "$PWD/salida"
+          ls -lh salida
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: instalador-mac
+          path: salida/*.dmg
+          retention-days: 30
+
+      - name: Probar el instalador como lo haría el usuario
+        timeout-minutes: 8
+        run: |
+          set -x
+          mkdir -p capturas
+          DMG=$(ls salida/*.dmg | head -1)
+          # 1) doble clic en el .dmg: ventana «Doble clic para instalar»
+          open "$DMG"
+          MNT=""
+          for i in $(seq 1 90); do MNT=$(ls -d /Volumes/Catalogo* 2>/dev/null | head -1); [ -n "$MNT" ] && break; sleep 1; done
+          echo "montado en: $MNT"
+          ls -la "$MNT"
+          test -x "$MNT/.Catalogo Cinema.app/Contents/MacOS/Catalogo Cinema" && echo "OK: el programa va oculto junto al instalador"
+          du -sh "$MNT/Instalar Catalogo.app"
+          sleep 6
+          screencapture -x capturas/1_ventana_del_dmg.png || true
+          INST="$MNT/Instalar Catalogo.app/Contents/MacOS/instalar"
+          # 2) la ventana del instalador en modo demostración (sin instalar nada)
+          "$INST" --demo & DEMO=$!
+          sleep 2.4; screencapture -x capturas/2a_instalador_pasos.png || true
+          sleep 3.6; screencapture -x capturas/2b_instalador_listo.png || true
+          kill $DEMO || true
+          sleep 1
+          # 3) la instalación de verdad: un doble clic en «Instalar Catálogo»
+          ( sleep 1.5; screencapture -x capturas/3_instalando.png ) &
+          open -W "$MNT/Instalar Catalogo.app"
+          sleep 6
+          test -d "/Applications/Catalogo Cinema.app" && echo "OK: instalado en Aplicaciones"
+          defaults read com.apple.dock persistent-apps | grep -i "catalogo" && echo "OK: está en el Dock"
+          pgrep -f "Catalogo Cinema.app/Contents/MacOS" && echo "OK: el programa se abrió"
+          screencapture -x capturas/4_instalado_y_abierto.png || true
+          sleep 3
+          if [ -d "$MNT" ]; then echo "AVISO: el disco sigue montado"; else echo "OK: el disco se expulsó"; fi
+          pkill -f "Catalogo Cinema.app/Contents/MacOS" || true
+          sleep 3
+          screencapture -x capturas/5_dock.png || true
+          # 4) con la misma versión ya instalada: solo abre el programa
+          hdiutil attach "$DMG" -nobrowse
+          MNT=$(ls -d /Volumes/Catalogo* | head -1)
+          open -W "$MNT/Instalar Catalogo.app"
+          sleep 4
+          pgrep -f "Catalogo Cinema.app/Contents/MacOS" && echo "OK: ya instalado → solo lo abrió"
+          pkill -f "Catalogo Cinema.app/Contents/MacOS" || true
+          hdiutil detach "$MNT" -force || true
+
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: capturas-mac
+          path: capturas/
+          retention-days: 30

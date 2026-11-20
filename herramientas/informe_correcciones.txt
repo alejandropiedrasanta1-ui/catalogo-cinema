@@ -1,0 +1,255 @@
+CORRECCIONES APLICADAS
+ACTIVIDADES/VERSION 2/PSD/Catalogo_audio_guest.psd · Página 1 · capa 334 (Poppins)
+   - ' 1 hora'
+   + '1 hora'
+   ✓ segura (dif 0.57)
+ACTIVIDADES/VERSION 2/PSD/Catalogo_cabina 360.psd · Página 1 · capa 311 (Poppins)
+   - ' 1 hora'
+   + '1 hora'
+   ✓ segura (dif 0.57)
+ACTIVIDADES/VERSION 2/PSD/Catalogo_cabina 360.psd · Página 1 · capa 215 (Poppins)
+   - 'INCLUYE:\n\nVideos en Slow motion \n\nDescarga inmediata\ncon codigo QR\n\nMúsica y efectos \n\nVideos divertidos\n\nÁlbum digital\n\nAlfombra roja\n'
+   + 'INCLUYE:\n\nVideos en Slow motion \n\nDescarga inmediata\ncon código QR\n\nMúsica y efectos \n\nVideos divertidos\n\nÁlbum digital\n\nAlfombra roja\n'
+   ✓ segura (dif 1.91)
+ACTIVIDADES/VERSION 2/PSD/Catalogo_espejo magico.psd · Página 1 · capa 332 (Poppins)
+   - ' 3 horas'
+   + '3 horas'
+   ✓ segura (dif 0.61)
+ACTIVIDADES/VERSION 2/PSD/Catalogo_show de cabezones.psd · Página 1 · capa 215 (Poppins)
+   - 'INCLUYE:\n\n1 personaje de\ncabezones gigantes.\n\nDinamicas y animacion \nen el evento.\n\nInteracción divertida \ncon invitados.\n\nFotos y videos \ninolvidables.\n\n\n\n'
+   + 'INCLUYE:\n\n1 personaje de\ncabezones gigantes.\n\nDinámicas y animación \nen el evento.\n\nInteracción divertida \ncon invitados.\n\nFotos y videos \ninolvidables.\n\n\n\n'
+   ✓ segura (dif 2.20)
+ALBUM/PSD/catalogo album portada.psd · Página 1 · capa 22 (Zuume)
+   - ' álbumes'
+   + 'álbumes'
+   ✓ segura (dif 0.00)
+ALBUM/PSD/PAGINA 1 ALBUM.psd · Página 1 · capa 69 (Poppins)
+   - 'Tamaño 4*7\nSelecciona las mejores\nÁlbum compacto y elegante'
+   + 'Tamaño 4x7\nSelecciona las mejores\nÁlbum compacto y elegante'
+   ✓ segura (dif 0.45)
+ALBUM/PSD/PAGINA 1 ALBUM.psd · Página 1 · capa 57 (Poppins)
+   - 'Album de 20 fotos\n\n'
+   + 'Álbum de 20 fotos\n\n'
+   ✓ segura (dif 0.51)
+ALBUM/PSD/PAGINA 2 ALBUM.psd · Página 1 · capa 70 (Poppins)
+   - 'Tamaño 4*7\nSelecciona las mejores\nÁlbum compacto y elegante'
+   + 'Tamaño 4x7\nSelecciona las mejores\nÁlbum compacto y elegante'
+   ✓ segura (dif 0.45)
+ALBUM/PSD/PAGINA 2 ALBUM.psd · Página 1 · capa 57 (Poppins)
+   - 'Album de 40 fotos\n\n'
+   + 'Álbum de 40 fotos\n\n'
+   ✓ segura (dif 0.54)
+ALBUM/PSD/PAGINA 3 ALBUM.psd · Página 1 · capa 71 (Poppins)
+   - 'Tamaño 3*7\nSelecciona las mejores\nÁlbum compacto y elegante'
+   + 'Tamaño 3x7\nSelecciona las mejores\nÁlbum compacto y elegante'
+   ✓ segura (dif 0.45)
+ALBUM/PSD/PAGINA 3 ALBUM.psd · Página 1 · capa 59 (Poppins)
+   - 'Album de 100 fotos\n\n'
+   + 'Álbum de 100 fotos\n\n'
+   ✓ segura (dif 0.52)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #1.psd · Página 1 · capa 19 (Poppins)
+   - 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\n de las imágenes\n\n\n'
+   + 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\nde las imágenes\n\n\n'
+   ✓ segura (dif 0.36)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #1.psd · Página 1 · capa 15 (Poppins)
+   - 'SIN LIMITE DE TIEMPO'
+   + 'SIN LÍMITE DE TIEMPO'
+   ✓ segura (dif 0.94)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #2.psd · Página 1 · capa 50 (Poppins)
+   - 'SIN LIMITE DE TIEMPO'
+   + 'SIN LÍMITE DE TIEMPO'
+   ✓ segura (dif 0.94)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #2.psd · Página 1 · capa 19 (Poppins)
+   - 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\n de las imágenes\n\nVideo profesional\n(1 a 3 minutos)'
+   + 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\nde las imágenes\n\nVideo profesional\n(1 a 3 minutos)'
+   ✓ segura (dif 0.33)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #3.psd · Página 1 · capa 25 (Poppins)
+   - 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\n de las imágenes\n\nVideo profesional\n(1 a 3 minutos)\n\nTomas aereas\n'
+   + 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\nde las imágenes\n\nVideo profesional\n(1 a 3 minutos)\n\nTomas aéreas\n'
+   ✓ segura (dif 0.30)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #3.psd · Página 1 · capa 15 (Poppins)
+   - 'SIN LIMITE DE TIEMPO'
+   + 'SIN LÍMITE DE TIEMPO'
+   ✓ segura (dif 0.94)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #4.psd · Página 1 · capa 25 (Poppins)
+   - 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\n de las imágenes\n\nVideo profesional\n(1 a 3 minutos)\n\nTomas aereas\n\n1 HORA DE VIDEO\n'
+   + 'Fotografías ilimitadas\n\nGalería digital \nprivada (link directo)\n\nPresentación elegante\nde las imágenes\n\nVideo profesional\n(1 a 3 minutos)\n\nTomas aéreas\n\n1 HORA DE VIDEO\n'
+   ✓ segura (dif 0.29)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #4.psd · Página 1 · capa 15 (Poppins)
+   - 'SIN LIMITE DE TIEMPO'
+   + 'SIN LÍMITE DE TIEMPO'
+   ✓ segura (dif 0.94)
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/proceso de vide/portafolio DE VIDEO.psd · Página 1 · capa 117 (LEMON MILK)
+   - 'AGENDAR DIA DE Grabación'
+   + 'AGENDAR DÍA DE Grabación'
+   ✓ segura (dif 3.87)
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 2 · capa 64 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.83)
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 3 · capa 137 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.85)
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 3 · capa 114 (Adobe Invis Font)
+   - 'Fotografias ilimitadas durante 4\nhoras.\nLas fotografias se entregan en\nformato digital.\nTodas las fotografias contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografias impresas en 4x6\npulgadas.'
+   + 'Fotografías ilimitadas durante 4\nhoras.\nLas fotografías se entregan en\nformato digital.\nTodas las fotografías contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografías impresas en 4x6\npulgadas.'
+   ✓ segura (dif 0.00)
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 4 · capa 204 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.84)
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 4 · capa 182 (Adobe Invis Font)
+   - 'Fotografias ilimitadas durante 5\nhoras.\nLas fotografias se entregan en\nformato digital.\nTodas las fotografias contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografias impresas en 4x6\npulgadas.'
+   + 'Fotografías ilimitadas durante 5\nhoras.\nLas fotografías se entregan en\nformato digital.\nTodas las fotografías contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografías impresas en 4x6\npulgadas.'
+   ✓ segura (dif 0.00)
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 5 · capa 271 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.83)
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 5 · capa 247 (Adobe Invis Font)
+   - 'Fotografias ilimitadas durante 5\nhoras.\nLas fotografias se entregan en\nformato digital.\nTodas las fotografias contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografias impresas en 4x6\npulgadas.'
+   + 'Fotografías ilimitadas durante 5\nhoras.\nLas fotografías se entregan en\nformato digital.\nTodas las fotografías contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografías impresas en 4x6\npulgadas.'
+   ✓ segura (dif 0.00)
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 2 · capa 64 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.89)
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 3 · capa 137 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.93)
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 3 · capa 114 (Adobe Invis Font)
+   - 'Fotografias ilimitadas durante 4\nhoras.\nLas fotografias se entregan en\nformato digital.\nTodas las fotografias contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografias impresas en 4x6\npulgadas.'
+   + 'Fotografías ilimitadas durante 4\nhoras.\nLas fotografías se entregan en\nformato digital.\nTodas las fotografías contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografías impresas en 4x6\npulgadas.'
+   ✓ segura (dif 0.00)
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 4 · capa 204 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.89)
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 4 · capa 182 (Adobe Invis Font)
+   - 'Fotografias ilimitadas durante 5\nhoras.\nLas fotografias se entregan en\nformato digital.\nTodas las fotografias contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografias impresas en 4x6\npulgadas.'
+   + 'Fotografías ilimitadas durante 5\nhoras.\nLas fotografías se entregan en\nformato digital.\nTodas las fotografías contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografías impresas en 4x6\npulgadas.'
+   ✓ segura (dif 0.00)
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 5 · capa 271 (LEMON MILK)
+   - '(SIN LIMITE DE HORAS)'
+   + '(SIN LÍMITE DE HORAS)'
+   ✓ segura (dif 3.88)
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 5 · capa 247 (Adobe Invis Font)
+   - 'Fotografias ilimitadas durante 5\nhoras.\nLas fotografias se entregan en\nformato digital.\nTodas las fotografias contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografias impresas en 4x6\npulgadas.'
+   + 'Fotografías ilimitadas durante 5\nhoras.\nLas fotografías se entregan en\nformato digital.\nTodas las fotografías contaran con\nedicion.\nMemoria USB con todas las fotos.\n100 fotografías impresas en 4x6\npulgadas.'
+   ✓ segura (dif 0.00)
+
+NO SE PUEDEN CORREGIR AQUÍ (hacerlo en Photoshop)
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #1.psd · Página 1 · capa 31 (Poppins)
+   - 'Cobertura en toda\n Guatemala, donde nos \nnecesites.'
+   + 'Cobertura en toda\nGuatemala, donde nos \nnecesites.'
+   ✗ PhotoCraft no la redibuja igual (dif 17.9): corregir en Photoshop
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #2.psd · Página 1 · capa 30 (Poppins)
+   - 'Cobertura en toda\n Guatemala, donde nos \nnecesites.'
+   + 'Cobertura en toda\nGuatemala, donde nos \nnecesites.'
+   ✗ PhotoCraft no la redibuja igual (dif 17.9): corregir en Photoshop
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #3.psd · Página 1 · capa 38 (Poppins)
+   - 'Cobertura en toda\n Guatemala, donde nos \nnecesites.'
+   + 'Cobertura en toda\nGuatemala, donde nos \nnecesites.'
+   ✗ PhotoCraft no la redibuja igual (dif 17.9): corregir en Photoshop
+AUDIOVISUALES/PSD/AUDIOVISUAL/PAQUETE #4.psd · Página 1 · capa 38 (Poppins)
+   - 'Cobertura en toda\n Guatemala, donde nos \nnecesites.'
+   + 'Cobertura en toda\nGuatemala, donde nos \nnecesites.'
+   ✗ PhotoCraft no la redibuja igual (dif 17.9): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/CAFETERIA.psd · Página 1 · capa 31 (Bebas Neue)
+   - ' ¡agenda tu cita con nosotros!'
+   + '¡Agenda tu cita con nosotros!'
+   ✗ PhotoCraft no la redibuja igual (dif 73.5): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/CAFETERIA.psd · Página 1 · capa 24 (Garet)
+   - 'CAFETERIA'
+   + 'CAFETERÍA'
+   ✗ PhotoCraft no la redibuja igual (dif 71.7): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/catalogo v2.psd · Pagina 3 · capa 111 (Nexa)
+   - 'INCLUYE LO MISMO \nDELPAQUETE \nCREATIVO\n\nPRESENTACIÓN \nDE FOTOS\n(Del evento completo)\n\n1-2 НORAS MAS \nDE VIDEO\nDEL EVENTO\n\n'
+   + 'INCLUYE LO MISMO \nDEL PAQUETE \nCREATIVO\n\nPRESENTACIÓN \nDE FOTOS\n(Del evento completo)\n\n1-2 HORAS MÁS \nDE VIDEO\nDEL EVENTO\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 35.7): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/catalogo v2.psd · Pagina 4 · capa 163 (Nexa)
+   - 'INCLUYE LO MISMO \nDEL PAQUETE PLATА\n\nPRESENTACIÓN \nDE FOTOS\n(De pequeña a grande)\n\nALBUN DE 20 PAGINAS \n10*8 CON LAS MEJORES \nFOTOS\n\n1 FOTO ENMARCADA\n(TAMAÑO 16*20)\n\nUSB CON TODO \nEL EVENTO EN\n\nCAJA PERSONALIZADA\n\nDRON\n\n'
+   + 'INCLUYE LO MISMO \nDEL PAQUETE PLATA\n\nPRESENTACIÓN \nDE FOTOS\n(De pequeña a grande)\n\nÁLBUM DE 20 PÁGINAS \n10x8 CON LAS MEJORES \nFOTOS\n\n1 FOTO ENMARCADA\n(TAMAÑO 16x20)\n\nUSB CON TODO \nEL EVENTO EN\n\nCAJA PERSONALIZADA\n\nDRON\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 31.1): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/hoteles.psd · Página 1 · capa 21 (Bebas Neue)
+   - ' ¡agenda tu cita con nosotros!'
+   + '¡Agenda tu cita con nosotros!'
+   ✗ PhotoCraft no la redibuja igual (dif 52.8): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/RESTAURANTE.psd · Página 1 · capa 25 (Bebas Neue)
+   - ' ¡agenda tu cita con nosotros!'
+   + '¡Agenda tu cita con nosotros!'
+   ✗ PhotoCraft no la redibuja igual (dif 76.8): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/salon de belleza.psd · Página 1 · capa 17 (Bebas Neue)
+   - ' ¡agenda tu cita con nosotros!'
+   + '¡Agenda tu cita con nosotros!'
+   ✗ PhotoCraft no la redibuja igual (dif 58.8): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/salon de belleza.psd · Página 1 · capa 9 (Garet)
+   - 'RESTAURANTE'
+   + 'SALÓN DE BELLEZA'
+   ✗ PhotoCraft no la redibuja igual (dif 77.2): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/catalogo.psd · Pagina 3 · capa 111 (Nexa)
+   - 'INCLUYE LO MISMO \nDELPAQUETE \nCREATIVO\n\nPRESENTACIÓN \nDE FOTOS\n(Del evento completo)\n\n1-2 НORAS MAS \nDE VIDEO\nDEL EVENTO\n\n'
+   + 'INCLUYE LO MISMO \nDEL PAQUETE \nCREATIVO\n\nPRESENTACIÓN \nDE FOTOS\n(Del evento completo)\n\n1-2 HORAS MÁS \nDE VIDEO\nDEL EVENTO\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 35.7): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/catalogo.psd · Pagina 4 · capa 163 (Nexa)
+   - 'INCLUYE LO MISMO \nDEL PAQUETE PLATА\n\nPRESENTACIÓN \nDE FOTOS\n(De pequeña a grande)\n\nALBUN DE 20 PAGINAS \n10*8 CON LAS MEJORES \nFOTOS\n\n1 FOTO ENMARCADA\n(TAMAÑO 16*20)\n\nUSB CON TODO \nEL EVENTO EN\n\nCAJA PERSONALIZADA\n\nDRON\n\n'
+   + 'INCLUYE LO MISMO \nDEL PAQUETE PLATA\n\nPRESENTACIÓN \nDE FOTOS\n(De pequeña a grande)\n\nÁLBUM DE 20 PÁGINAS \n10x8 CON LAS MEJORES \nFOTOS\n\n1 FOTO ENMARCADA\n(TAMAÑO 16x20)\n\nUSB CON TODO \nEL EVENTO EN\n\nCAJA PERSONALIZADA\n\nDRON\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 31.1): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/catalogo v2.psd · Pagina 3 · capa 111 (Nexa)
+   - 'INCLUYE LO MISMO \nDELPAQUETE \nCREATIVO\n\nPRESENTACIÓN \nDE FOTOS\n(Del evento completo)\n\n1-2 НORAS MAS \nDE VIDEO\nDEL EVENTO\n\n'
+   + 'INCLUYE LO MISMO \nDEL PAQUETE \nCREATIVO\n\nPRESENTACIÓN \nDE FOTOS\n(Del evento completo)\n\n1-2 HORAS MÁS \nDE VIDEO\nDEL EVENTO\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 35.7): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/catalogo v2.psd · Pagina 4 · capa 163 (Nexa)
+   - 'INCLUYE LO MISMO \nDEL PAQUETE PLATА\n\nPRESENTACIÓN \nDE FOTOS\n(De pequeña a grande)\n\nALBUN DE 20 PAGINAS \n10*8 CON LAS MEJORES \nFOTOS\n\n1 FOTO ENMARCADA\n(TAMAÑO 16*20)\n\nUSB CON TODO \nEL EVENTO EN\n\nCAJA PERSONALIZADA\n\nDRON\n\n'
+   + 'INCLUYE LO MISMO \nDEL PAQUETE PLATA\n\nPRESENTACIÓN \nDE FOTOS\n(De pequeña a grande)\n\nÁLBUM DE 20 PÁGINAS \n10x8 CON LAS MEJORES \nFOTOS\n\n1 FOTO ENMARCADA\n(TAMAÑO 16x20)\n\nUSB CON TODO \nEL EVENTO EN\n\nCAJA PERSONALIZADA\n\nDRON\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 31.1): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/proceso de vide/portafolio DE VIDEO.psd · Página 1 · capa 72 (LEMON MILK)
+   - ' MAXIMA CALIDAD\n4K-H264\n'
+   + 'MÁXIMA CALIDAD\n4K-H264\n'
+   ✗ PhotoCraft no la redibuja igual (dif 34.3): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/proceso de vide/portafolio DE VIDEO.psd · Página 1 · capa 35 (LEMON MILK)
+   - 'producción de video para todo tipo \nde proyectos.incluyendo videos \nDE ANUNCIOS (fotos-VIDEO)'
+   + 'producción de video para todo tipo \nde proyectos, incluyendo videos \nDE ANUNCIOS (fotos-VIDEO)'
+   ✗ PhotoCraft no la redibuja igual (dif 4.3): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/proceso de vide/portafolio DE VIDEO.psd · Página 1 · capa 28 (LEMON MILK)
+   - 'rodage'
+   + 'rodaje'
+   ✗ PhotoCraft no la redibuja igual (dif 56.9): corregir en Photoshop
+AUDIOVISUALES/PSD/SERVICIOS/OTROS/proceso de vide/portafolio DE VIDEO.psd · Página 1 · capa 23 (LEMON MILK)
+   - 'En esta fase, debes definir qué vas a producir, el públco objetivo, los recursos necesarios, presupuestos y dia de Grabación. '
+   + 'En esta fase, debes definir qué vas a producir, el público objetivo, los recursos necesarios, presupuestos y día de Grabación. '
+   ✗ PhotoCraft no la redibuja igual (dif 19.5): corregir en Photoshop
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 2 · capa 44 (LEMON MILK)
+   - 'FotoS ilimitadas\n \nCOBERTURA EN\n     (CEREMONIA - FIESTA) \n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nGALERIA ONLINE\n     (FOTOS DEL EVENTO)\n\n'
+   + 'Fotos ilimitadas\n \nCOBERTURA EN\n     (CEREMONIA - FIESTA) \n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nGALERÍA ONLINE\n     (FOTOS DEL EVENTO)\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 46.1): corregir en Photoshop
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 3 · capa 133 (LEMON MILK)
+   - 'FotoS ilimitadas\n \nCOBERTURA EN\n     (MAQUILLAJE - CEREMONIA - FIESTA) \n\nALBUM DE FOTOS\n     (LAS MEJORES  FOTOS)\n\nVIDEO PROFESIONAL\n     (TRAILER PARA REDES SOCIALES)\n\nMemoria usb y link\n\n\n\n\n\n\n'
+   + 'Fotos ilimitadas\n \nCOBERTURA EN\n     (MAQUILLAJE - CEREMONIA - FIESTA) \n\nÁLBUM DE FOTOS\n     (LAS MEJORES FOTOS)\n\nVIDEO PROFESIONAL\n     (TRÁILER PARA REDES SOCIALES)\n\nMemoria usb y link\n\n\n\n\n\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 42.8): corregir en Photoshop
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 4 · capa 181 (LEMON MILK)
+   - 'TODO LO ANTERIOR  +  \n\nVIDEO LARGO \n     (15 min -  30 MIN de video)\n\nVIDEO CON DRON\n     (SEGUN CONDICIONES DEL LUGAR)\n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nBUZON DE AUDIO \n     (MENSAJES DE TUS INVITADOS)\n'
+   + 'TODO LO ANTERIOR  +  \n\nVIDEO LARGO \n     (15 min - 30 MIN de video)\n\nVIDEO CON DRON\n     (SEGÚN CONDICIONES DEL LUGAR)\n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nBUZÓN DE AUDIO \n     (MENSAJES DE TUS INVITADOS)\n'
+   ✗ PhotoCraft no la redibuja igual (dif 41.7): corregir en Photoshop
+BODAS/VERSION 3/BODAS-PAQUETES.psd · Page 5 · capa 246 (LEMON MILK)
+   - 'TODO LO ANTERIOR  +   \n\ncabina 360 \n     (2 horas de cobertura)\n\nchispa fria\n     (DETONADORES VALS-PASTEL)\n\nBUZON DE AUDIO\n     (MENSAJES DE TUS INVITADOS 2H)\n\nFOTO ENMARCADA\n     (12X18 GRANDE +  1 PEQUEÑA)\n'
+   + 'TODO LO ANTERIOR  +   \n\ncabina 360 \n     (2 horas de cobertura)\n\nchispa fría\n     (DETONADORES VALS-PASTEL)\n\nBUZÓN DE AUDIO\n     (MENSAJES DE TUS INVITADOS 2H)\n\nFOTO ENMARCADA\n     (12X18 GRANDE + 1 PEQUEÑA)\n'
+   ✗ PhotoCraft no la redibuja igual (dif 38.6): corregir en Photoshop
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 2 · capa 44 (LEMON MILK)
+   - 'FotoS ilimitadas\n \nCOBERTURA EN\n     (CEREMONIA - FIESTA) \n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nGALERIA ONLINE\n     (FOTOS DEL EVENTO)\n\n'
+   + 'Fotos ilimitadas\n \nCOBERTURA EN\n     (CEREMONIA - FIESTA) \n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nGALERÍA ONLINE\n     (FOTOS DEL EVENTO)\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 46.1): corregir en Photoshop
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 3 · capa 133 (LEMON MILK)
+   - 'FotoS ilimitadas\n \nCOBERTURA EN\n     (MAQUILLAJE - CEREMONIA - FIESTA) \n\nALBUM DE FOTOS\n     (LAS MEJORES  FOTOS)\n\nVIDEO PROFESIONAL\n     (TRAILER PARA REDES SOCIALES)\n\nMemoria usb y link\n\n\n\n\n\n\n'
+   + 'Fotos ilimitadas\n \nCOBERTURA EN\n     (MAQUILLAJE - CEREMONIA - FIESTA) \n\nÁLBUM DE FOTOS\n     (LAS MEJORES FOTOS)\n\nVIDEO PROFESIONAL\n     (TRÁILER PARA REDES SOCIALES)\n\nMemoria usb y link\n\n\n\n\n\n\n'
+   ✗ PhotoCraft no la redibuja igual (dif 42.8): corregir en Photoshop
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 4 · capa 181 (LEMON MILK)
+   - 'TODO LO ANTERIOR  +  \n\nVIDEO LARGO \n     (15 min -  30 MIN de video)\n\nVIDEO CON DRON\n     (SEGUN CONDICIONES DEL LUGAR)\n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nBUZON DE AUDIO \n     (MENSAJES DE TUS INVITADOS)\n'
+   + 'TODO LO ANTERIOR  +  \n\nVIDEO LARGO \n     (15 min - 30 MIN de video)\n\nVIDEO CON DRON\n     (SEGÚN CONDICIONES DEL LUGAR)\n\nVIDEO CON FOTOS\n     (FOTOS DEL EVENTO)\n\nBUZÓN DE AUDIO \n     (MENSAJES DE TUS INVITADOS)\n'
+   ✗ PhotoCraft no la redibuja igual (dif 41.7): corregir en Photoshop
+QUINCEAÑOS/VERSION 3/XV-PAQUETES.psd · Page 5 · capa 246 (LEMON MILK)
+   - 'TODO LO ANTERIOR  +   \n\ncabina 360 \n     (2 horas de cobertura)\n\nchispa fria\n     (DETONADORES VALS-PASTEL)\n\nBUZON DE AUDIO\n     (MENSAJES DE TUS INVITADOS 2H)\n\nFOTO ENMARCADA\n     (12X18 GRANDE +  1 PEQUEÑA)\n'
+   + 'TODO LO ANTERIOR  +   \n\ncabina 360 \n     (2 horas de cobertura)\n\nchispa fría\n     (DETONADORES VALS-PASTEL)\n\nBUZÓN DE AUDIO\n     (MENSAJES DE TUS INVITADOS 2H)\n\nFOTO ENMARCADA\n     (12X18 GRANDE + 1 PEQUEÑA)\n'
+   ✗ PhotoCraft no la redibuja igual (dif 38.6): corregir en Photoshop

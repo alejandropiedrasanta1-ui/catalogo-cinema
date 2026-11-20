@@ -1,0 +1,1 @@
+Real-ESRGAN ncnn Vulkan v0.2.5.0 - https://github.com/xinntao/Real-ESRGAN - BSD 3-Clause License (c) Xintao Wang

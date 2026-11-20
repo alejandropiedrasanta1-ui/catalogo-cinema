@@ -1,0 +1,10 @@
+# Solo el código del programa va al repositorio (los PSD del catálogo pesan GB y son privados)
+CATALOGO/
+PROPUESTAS/
+__pycache__/
+*.pyc
+empaquetar/build*/
+empaquetar/dist*/
+empaquetar/*.zip
+recursos/realesrgan/realesrgan-ncnn-vulkan
+*.log

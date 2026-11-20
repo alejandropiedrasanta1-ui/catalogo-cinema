@@ -1,0 +1,77 @@
+#!/bin/bash
+# Arma el instalador de Mac del Catálogo (mismo método que Comprobantes / CineSlide) a partir de la app ya compilada.
+#   Uso: crear_instalador_mac.sh "<ruta a Catalogo Cinema.app>" "<carpeta de salida>"
+# Resultado: "<salida>/Instalar Catalogo Cinema (Mac Apple Silicon) <versión>.dmg". Al abrirlo se ve una ventana con
+# fondo «Doble clic para instalar» y la app «Instalar Catálogo»; su doble clic abre la ventana NATIVA del instalador
+# (Swift, mac/instalador_mac.swift): copia a Aplicaciones, fija en el Dock, abre el programa, se cierra y expulsa
+# el disco. El programa viaja OCULTO en el disco junto al instalador («.Catalogo Cinema.app»).
+# Necesita: Xcode o las Command Line Tools (swiftc) y dmgbuild (pip install dmgbuild; si falta se usa un .dmg simple).
+set -euo pipefail
+cd "$(dirname "$0")"
+APP="$1"
+SALIDA="$2"
+PY="${PYTHON:-python3}"
+command -v "$PY" >/dev/null 2>&1 || PY=python
+VERSION=$(cd .. && "$PY" -c "import rutas; print(rutas.VERSION)")
+TIPO="Apple Silicon"   # solo Mac con Apple Silicon (M1, M2, M3, M4…)
+NOMBRE="Instalar Catalogo.app"
+TMP="$(mktemp -d)"
+INST="$TMP/$NOMBRE"
+mkdir -p "$INST/Contents/MacOS" "$INST/Contents/Resources" "$SALIDA"
+
+# 1) La ventana del instalador (Swift, arm64)
+swiftc -swift-version 5 -O -parse-as-library -target arm64-apple-macos13.0 mac/instalador_mac.swift -o "$INST/Contents/MacOS/instalar"
+chmod +x "$INST/Contents/MacOS/instalar"
+
+# 2) Info.plist de «Instalar Catálogo»
+cat > "$INST/Contents/Info.plist" <<PLIST
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key><string>Instalar Catálogo</string>
+  <key>CFBundleDisplayName</key><string>Instalar Catálogo</string>
+  <key>CFBundleIdentifier</key><string>com.cinemaproductions.catalogo.instalador</string>
+  <key>CFBundleExecutable</key><string>instalar</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>$VERSION</string>
+  <key>CFBundleVersion</key><string>$VERSION</string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSPrincipalClass</key><string>NSApplication</string>
+  <key>LSApplicationCategoryType</key><string>public.app-category.business</string>
+</dict>
+</plist>
+PLIST
+plutil -lint "$INST/Contents/Info.plist"
+
+# 3) El programa va OCULTO junto al instalador (no adentro); el instalador lleva solo el ícono
+OCULTA="$TMP/.Catalogo Cinema.app"
+ditto "$APP" "$OCULTA"
+cp ../recursos/icono.png "$INST/Contents/Resources/icono.png"
+ICONO=$(find "$APP/Contents/Resources" -maxdepth 1 -name "*.icns" | head -1)
+if [ -n "$ICONO" ]; then cp "$ICONO" "$INST/Contents/Resources/AppIcon.icns"; fi
+
+# 4) Firma local (ad hoc), necesaria en Mac con Apple Silicon (el instalador y el programa)
+xattr -cr "$INST" "$OCULTA"
+codesign --force --deep -s - "$INST"
+codesign --force --deep -s - "$OCULTA"
+codesign -v --deep "$INST" && codesign -v --deep "$OCULTA" && echo "firma ad hoc OK" >&2
+
+# 5) El .dmg: ventana con fondo «Doble clic para instalar»
+DMG="$SALIDA/Instalar Catalogo Cinema (Mac $TIPO) $VERSION.dmg"
+VOLUMEN="Catalogo Cinema $VERSION"
+rm -f "$DMG"
+if "$PY" -c "import dmgbuild" 2>/dev/null; then
+  tiffutil -cathidpicheck mac/fondo.png mac/fondo@2x.png -out "$TMP/fondo.tiff" >/dev/null
+  "$PY" -m dmgbuild -s mac/dmg_ajustes.py -D app="$INST" -D programa="$OCULTA" -D fondo="$TMP/fondo.tiff" \
+    -D icono="$INST/Contents/Resources/AppIcon.icns" "$VOLUMEN" "$DMG" >&2
+else
+  echo "AVISO: falta dmgbuild (pip install dmgbuild); se crea un .dmg sin fondo" >&2
+  mkdir -p "$TMP/dmg" && mv "$INST" "$OCULTA" "$TMP/dmg/"
+  hdiutil create -volname "$VOLUMEN" -srcfolder "$TMP/dmg" -ov -format ULFO "$DMG" >/dev/null
+fi
+hdiutil verify "$DMG" >&2
+rm -rf "$TMP"
+echo "$DMG"
