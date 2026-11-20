@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 APP = "Catalogo Cinema Productions"
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 ES_WINDOWS = sys.platform.startswith("win")
 ES_MAC = sys.platform == "darwin"
 CONGELADO = getattr(sys, "frozen", False)
