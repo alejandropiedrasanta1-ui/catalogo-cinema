@@ -41,6 +41,15 @@ jobs:
           print("método:", ampliar.ampliar("prueba.png", 400, 520, "prueba_x2.png"))
           PY
 
+      - name: Catálogo HD (release «catalogo-hd») para incluirlo en la app
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p CATALOGO
+          gh release download catalogo-hd -R "${{ github.repository }}" -p catalogo-hd.zip -D /tmp
+          unzip -q /tmp/catalogo-hd.zip -d CATALOGO
+          ls "CATALOGO/CATALOGO HD"
+
       - name: Compilar la app
         working-directory: empaquetar
         run: python -m PyInstaller --noconfirm --clean --distpath dist-mac --workpath build-mac catalogo.spec
