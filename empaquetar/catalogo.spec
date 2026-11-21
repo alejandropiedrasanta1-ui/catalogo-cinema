@@ -27,6 +27,10 @@ if ES_MAC:
 else:
     datas += [(str(RAIZ / "recursos" / "realesrgan" / n), "recursos/realesrgan")
               for n in ("realesrgan-ncnn-vulkan.exe", "vcomp140.dll")]
+# catálogo HD (JPG + PDF de cada sección): el programa lo copia a Documentos al abrir (rutas.copiar_catalogo_hd)
+HD = RAIZ / "CATALOGO" / "CATALOGO HD"
+if HD.is_dir():
+    datas.append((str(HD), "CATALOGO HD"))
 
 a = Analysis(
     [str(RAIZ / "catalogo_cinema.py")],

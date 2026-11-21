@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 APP = "Catalogo Cinema Productions"
-VERSION = "1.2.1"
+VERSION = "1.2.2"
 ES_WINDOWS = sys.platform.startswith("win")
 ES_MAC = sys.platform == "darwin"
 CONGELADO = getattr(sys, "frozen", False)
@@ -55,8 +55,28 @@ def recurso(relativa):
     return p if p.is_absolute() else RECURSOS / p
 
 
+CATALOGO_HD_INCLUIDO = RECURSOS / "CATALOGO HD"          # JPG + PDF de cada sección que trae el instalador
+CATALOGO_HD_DOCUMENTOS = Path.home() / "Documents" / APP / "CATALOGO HD"
+
+
+def copiar_catalogo_hd():
+    """La primera vez (y en cada versión nueva) copia el catálogo HD incluido a Documentos para tenerlo a mano."""
+    import shutil
+    if not (CONGELADO and CATALOGO_HD_INCLUIDO.is_dir()):
+        return
+    marca = CATALOGO_HD_DOCUMENTOS / ".version"
+    try:
+        if marca.exists() and marca.read_text(encoding="utf-8").strip() == VERSION:
+            return
+        shutil.copytree(CATALOGO_HD_INCLUIDO, CATALOGO_HD_DOCUMENTOS, dirs_exist_ok=True)
+        marca.write_text(VERSION, encoding="utf-8")
+    except OSError:
+        pass                                              # sin permiso o sin espacio: el programa sigue igual
+
+
 def preparar_carpetas():
     for c in (DATOS, MINIATURAS, IMAGENES, TRABAJO, HD):
         c.mkdir(parents=True, exist_ok=True)
     if CONGELADO and ES_MAC:
         CATALOGO_POR_DEFECTO.mkdir(parents=True, exist_ok=True)
+    copiar_catalogo_hd()
