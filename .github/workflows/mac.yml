@@ -47,7 +47,7 @@ jobs:
         run: |
           mkdir -p CATALOGO
           gh release download catalogo-hd -R "${{ github.repository }}" -p catalogo-hd.zip -D /tmp
-          unzip -q /tmp/catalogo-hd.zip -d CATALOGO
+          python -c "import zipfile; zipfile.ZipFile('/tmp/catalogo-hd.zip').extractall('CATALOGO')"   # unzip no lee bien la ñ
           ls "CATALOGO/CATALOGO HD"
 
       - name: Compilar la app
